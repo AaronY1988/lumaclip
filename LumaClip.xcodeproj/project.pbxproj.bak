@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* LumaClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001 /* LumaClipApp.swift */; };
+		A10002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002 /* AppDelegate.swift */; };
+		A10003 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003 /* ClipboardItem.swift */; };
+		A10004 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004 /* Category.swift */; };
+		A10005 /* RetentionRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005 /* RetentionRule.swift */; };
+		A10006 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006 /* AppSettings.swift */; };
+		A10007 /* ClipboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007 /* ClipboardViewModel.swift */; };
+		A10008 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008 /* SettingsViewModel.swift */; };
+		A10009 /* FloatingButtonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009 /* FloatingButtonWindow.swift */; };
+		A10010 /* MainPanelWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010 /* MainPanelWindow.swift */; };
+		A10011 /* MainPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011 /* MainPanelView.swift */; };
+		A10012 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012 /* SidebarView.swift */; };
+		A10013 /* ClipboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013 /* ClipboardListView.swift */; };
+		A10014 /* DetailPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014 /* DetailPanelView.swift */; };
+		A10015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015 /* SettingsView.swift */; };
+		A10040 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10040 /* OnboardingView.swift */; };
+		A10016 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016 /* DesignSystem.swift */; };
+		A10017 /* ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017 /* ClipboardService.swift */; };
+		A10018 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10018 /* SearchService.swift */; };
+		A10019 /* RetentionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10019 /* RetentionService.swift */; };
+		A10020 /* PrivacyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10020 /* PrivacyService.swift */; };
+		A10021 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10021 /* DatabaseService.swift */; };
+		A10022 /* ContentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10022 /* ContentClassifier.swift */; };
+		A10023 /* GlobalHotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10023 /* GlobalHotkey.swift */; };
+		A10024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10024 /* Assets.xcassets */; };
+		A10025 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B10025 /* libsqlite3.tbd */; };
+		A10030 /* TokenSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10030 /* TokenSearchBar.swift */; };
+		A37AF9532F80DDE500353056 /* SidebarFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF9522F80DDE500353056 /* SidebarFilter.swift */; };
+		A37AF9552F80DDF100353056 /* ClipBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF9542F80DDF100353056 /* ClipBundle.swift */; };
+		A37AF9572F80DE0800353056 /* BundleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF9562F80DE0800353056 /* BundleService.swift */; };
+		A37AF9592F80DF0700353056 /* BundlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF9582F80DF0700353056 /* BundlesView.swift */; };
+		A37AF95B2F80DF0700353056 /* BundleHUDWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF95A2F80DF0700353056 /* BundleHUDWindow.swift */; };
+		A37AF95D2F80DF0700353056 /* QuickPastePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37AF95C2F80DF0700353056 /* QuickPastePanel.swift */; };
+		A387A4812F82A87F0039EE65 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10026 /* Carbon.framework */; };
+		A3A0010001 /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0010002 /* LoginItemService.swift */; };
+		A3A0010003 /* UndoRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0010004 /* UndoRegistry.swift */; };
+		A10031 /* ContentAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10031 /* ContentAnalysis.swift */; };
+		A10034 /* AppIconResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10034 /* AppIconResolver.swift */; };
+		A10032 /* LumaClipIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10032 /* LumaClipIntents.swift */; };
+		A10033 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10033 /* AppIntents.framework */; };
+		A10050 /* CormorantGaramond-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10050 /* CormorantGaramond-VariableFont_wght.ttf */; };
+		A10051 /* CormorantGaramond-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10051 /* CormorantGaramond-Italic-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A37AF9522F80DDE500353056 /* SidebarFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarFilter.swift; sourceTree = "<group>"; };
+		A37AF9542F80DDF100353056 /* ClipBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipBundle.swift; sourceTree = "<group>"; };
+		A37AF9562F80DE0800353056 /* BundleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleService.swift; sourceTree = "<group>"; };
+		A37AF9582F80DF0700353056 /* BundlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundlesView.swift; sourceTree = "<group>"; };
+		A3A0010002 /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+		A3A0010004 /* UndoRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRegistry.swift; sourceTree = "<group>"; };
+		A37AF95A2F80DF0700353056 /* BundleHUDWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleHUDWindow.swift; sourceTree = "<group>"; };
+		A37AF95C2F80DF0700353056 /* QuickPastePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPastePanel.swift; sourceTree = "<group>"; };
+		B10001 /* LumaClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumaClipApp.swift; sourceTree = "<group>"; };
+		B10002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10003 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		B10004 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B10005 /* RetentionRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetentionRule.swift; sourceTree = "<group>"; };
+		B10006 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B10007 /* ClipboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardViewModel.swift; sourceTree = "<group>"; };
+		B10008 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B10009 /* FloatingButtonWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonWindow.swift; sourceTree = "<group>"; };
+		B10010 /* MainPanelWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPanelWindow.swift; sourceTree = "<group>"; };
+		B10011 /* MainPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPanelView.swift; sourceTree = "<group>"; };
+		B10012 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B10013 /* ClipboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardListView.swift; sourceTree = "<group>"; };
+		B10014 /* DetailPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPanelView.swift; sourceTree = "<group>"; };
+		B10015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10040 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B10016 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		B10017 /* ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardService.swift; sourceTree = "<group>"; };
+		B10018 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		B10019 /* RetentionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetentionService.swift; sourceTree = "<group>"; };
+		B10020 /* PrivacyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyService.swift; sourceTree = "<group>"; };
+		B10021 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		B10022 /* ContentClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentClassifier.swift; sourceTree = "<group>"; };
+		B10023 /* GlobalHotkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkey.swift; sourceTree = "<group>"; };
+		B10024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10025 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B10026 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		B10027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10028 /* LumaClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LumaClip.entitlements; sourceTree = "<group>"; };
+		B10030 /* TokenSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSearchBar.swift; sourceTree = "<group>"; };
+		B10031 /* ContentAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAnalysis.swift; sourceTree = "<group>"; };
+		B10034 /* AppIconResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconResolver.swift; sourceTree = "<group>"; };
+		B10032 /* LumaClipIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumaClipIntents.swift; sourceTree = "<group>"; };
+		B10033 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		B10099 /* LumaClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumaClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10050 /* CormorantGaramond-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B10051 /* CormorantGaramond-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10025 /* libsqlite3.tbd in Frameworks */,
+				A387A4812F82A87F0039EE65 /* Carbon.framework in Frameworks */,
+				A10033 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10001 = {
+			isa = PBXGroup;
+			children = (
+				D10002 /* LumaClip */,
+				D10099 /* Products */,
+				D10098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D10002 /* LumaClip */ = {
+			isa = PBXGroup;
+			children = (
+				D10003 /* App */,
+				D10004 /* Models */,
+				D10005 /* ViewModels */,
+				D10006 /* Views */,
+				D10007 /* Components */,
+				D10008 /* Services */,
+				D10009 /* Database */,
+				D10010 /* Utils */,
+				D10050 /* Resources */,
+			);
+			path = LumaClip;
+			sourceTree = "<group>";
+		};
+		D10050 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10050 /* CormorantGaramond-VariableFont_wght.ttf */,
+				B10051 /* CormorantGaramond-Italic-VariableFont_wght.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D10003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* LumaClipApp.swift */,
+				B10002 /* AppDelegate.swift */,
+				B10032 /* LumaClipIntents.swift */,
+				B10024 /* Assets.xcassets */,
+				B10027 /* Info.plist */,
+				B10028 /* LumaClip.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D10004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10003 /* ClipboardItem.swift */,
+				B10004 /* Category.swift */,
+				B10005 /* RetentionRule.swift */,
+				B10006 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10007 /* ClipboardViewModel.swift */,
+				B10008 /* SettingsViewModel.swift */,
+				A37AF9522F80DDE500353056 /* SidebarFilter.swift */,
+				A37AF9542F80DDF100353056 /* ClipBundle.swift */,
+				A37AF9562F80DE0800353056 /* BundleService.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D10006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10009 /* FloatingButtonWindow.swift */,
+				B10010 /* MainPanelWindow.swift */,
+				B10011 /* MainPanelView.swift */,
+				B10012 /* SidebarView.swift */,
+				B10013 /* ClipboardListView.swift */,
+				B10014 /* DetailPanelView.swift */,
+				B10030 /* TokenSearchBar.swift */,
+				B10015 /* SettingsView.swift */,
+				B10040 /* OnboardingView.swift */,
+				A37AF9582F80DF0700353056 /* BundlesView.swift */,
+				A37AF95A2F80DF0700353056 /* BundleHUDWindow.swift */,
+				A37AF95C2F80DF0700353056 /* QuickPastePanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D10007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10016 /* DesignSystem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D10008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10017 /* ClipboardService.swift */,
+				B10018 /* SearchService.swift */,
+				B10019 /* RetentionService.swift */,
+				B10020 /* PrivacyService.swift */,
+				A3A0010002 /* LoginItemService.swift */,
+				A3A0010004 /* UndoRegistry.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D10009 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B10021 /* DatabaseService.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		D10010 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B10022 /* ContentClassifier.swift */,
+				B10023 /* GlobalHotkey.swift */,
+				B10031 /* ContentAnalysis.swift */,
+				B10034 /* AppIconResolver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D10098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10025 /* libsqlite3.tbd */,
+				B10026 /* Carbon.framework */,
+				B10033 /* AppIntents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10099 /* LumaClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10001 /* LumaClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10003 /* Build configuration list for PBXNativeTarget "LumaClip" */;
+			buildPhases = (
+				C10002 /* Sources */,
+				C10001 /* Frameworks */,
+				C10003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumaClip;
+			productName = LumaClip;
+			productReference = B10099 /* LumaClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					E10001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F10001 /* Build configuration list for PBXProject "LumaClip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10001;
+			productRefGroup = D10099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10001 /* LumaClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10024 /* Assets.xcassets in Resources */,
+				A10050 /* CormorantGaramond-VariableFont_wght.ttf in Resources */,
+				A10051 /* CormorantGaramond-Italic-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* LumaClipApp.swift in Sources */,
+				A37AF9572F80DE0800353056 /* BundleService.swift in Sources */,
+				A10002 /* AppDelegate.swift in Sources */,
+				A10003 /* ClipboardItem.swift in Sources */,
+				A10004 /* Category.swift in Sources */,
+				A10005 /* RetentionRule.swift in Sources */,
+				A10006 /* AppSettings.swift in Sources */,
+				A37AF9532F80DDE500353056 /* SidebarFilter.swift in Sources */,
+				A10007 /* ClipboardViewModel.swift in Sources */,
+				A10008 /* SettingsViewModel.swift in Sources */,
+				A10009 /* FloatingButtonWindow.swift in Sources */,
+				A10010 /* MainPanelWindow.swift in Sources */,
+				A10011 /* MainPanelView.swift in Sources */,
+				A10012 /* SidebarView.swift in Sources */,
+				A10013 /* ClipboardListView.swift in Sources */,
+				A10014 /* DetailPanelView.swift in Sources */,
+				A10030 /* TokenSearchBar.swift in Sources */,
+				A10015 /* SettingsView.swift in Sources */,
+				A10040 /* OnboardingView.swift in Sources */,
+				A10016 /* DesignSystem.swift in Sources */,
+				A10017 /* ClipboardService.swift in Sources */,
+				A37AF9552F80DDF100353056 /* ClipBundle.swift in Sources */,
+				A10018 /* SearchService.swift in Sources */,
+				A10019 /* RetentionService.swift in Sources */,
+				A10020 /* PrivacyService.swift in Sources */,
+				A10021 /* DatabaseService.swift in Sources */,
+				A10022 /* ContentClassifier.swift in Sources */,
+				A10023 /* GlobalHotkey.swift in Sources */,
+				A37AF9592F80DF0700353056 /* BundlesView.swift in Sources */,
+				A37AF95B2F80DF0700353056 /* BundleHUDWindow.swift in Sources */,
+				A37AF95D2F80DF0700353056 /* QuickPastePanel.swift in Sources */,
+				A3A0010001 /* LoginItemService.swift in Sources */,
+				A3A0010003 /* UndoRegistry.swift in Sources */,
+				A10031 /* ContentAnalysis.swift in Sources */,
+				A10032 /* LumaClipIntents.swift in Sources */,
+				A10034 /* AppIconResolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F10020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LumaClip/App/LumaClip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumaClip/App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 LumaClip.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumaclip.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F10021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LumaClip/App/LumaClip.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumaClip/App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 LumaClip.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumaclip.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10001 /* Build configuration list for PBXProject "LumaClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10010 /* Debug */,
+				F10011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10003 /* Build configuration list for PBXNativeTarget "LumaClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10020 /* Debug */,
+				F10021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10099 /* Project object */;
+}

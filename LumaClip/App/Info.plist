@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>LumaClip</string>
+    <key>CFBundleDisplayName</key>
+    <string>LumaClip</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.lumaclip.app</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>LumaClip</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 LumaClip. All rights reserved.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>LumaClip needs access to detect which application you copied from.</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>LumaClip uses Accessibility access to simulate ⌘V and paste a clipboard item into the frontmost app after you pick it.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.lumaclip.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>lumaclip</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>

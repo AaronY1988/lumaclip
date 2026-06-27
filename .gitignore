@@ -1,0 +1,22 @@
+# ─── Build output ───────────────────────────────
+build/
+DerivedData/
+.build/
+*.o
+*.swiftmodule
+*.swiftdoc
+
+# ─── Xcode / SwiftPM user-specific data ─────────
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# ─── macOS noise ────────────────────────────────
+.DS_Store
+
+# ─── Marketing / personal assets (not part of the app) ───
+xhs_*.png
+小红书文案.md
+LumaClip-Code-Review.md
